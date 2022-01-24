@@ -1,0 +1,140 @@
+.app-container {
+  background-image: linear-gradient(to right, #ffffff, #cffcf1);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  height: 95%;
+}
+.main-heading {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 26px;
+  padding: 5px;
+  font-weight: bold;
+}
+.timer-container {
+  display: flex;
+  justify-content: center;
+  align-items: space-around;
+  width: 95%;
+  height: 95%;
+
+  align-self: stretch;
+}
+.time-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  height: 500px;
+  width: 500px;
+}
+.time-display-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 80px;
+  height: 30%;
+  width: 30%;
+  border: none;
+}
+.time-display {
+  color: #00d9f5;
+  font-family: 'Roboto';
+  font-size: 20px;
+  padding: 5px;
+  font-weight: bold;
+}
+.timer-status {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 16px;
+  padding: 5px;
+  font-weight: bold;
+}
+.operations-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 500px;
+}
+.pause-start-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.operations {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+.operation-buttons {
+  background-color: transparent;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.operation-icon {
+  height: 40px;
+  width: 40px;
+  padding: 5px;
+}
+.operation-title {
+  color: #1e293b;
+  font-weight: bold;
+  font-size: 28px;
+  padding: 5px;
+}
+.set-timer-heading {
+  color: #1e293b;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  padding: 5px;
+}
+.limit-setter-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.time-setter-button {
+  color: #1e293b;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  padding: 5px;
+  border: none;
+  background-color: transparent;
+}
+.time-set {
+  color: #1e293b;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  padding: 5px;
+  background-color: #00d9f5;
+  width: 50px;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  text-align: center;
+}
